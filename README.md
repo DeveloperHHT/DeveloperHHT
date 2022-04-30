@@ -1,6 +1,6 @@
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="400" />
 
-## Hi there 👋 
+## Hello there 👋 
 ##### -I'm a Computer Engineering Student 🎓 , Developer 💻 and also Gamer 🎮
 ##### -I’m currently learning more about Python <img align="center" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/python/python.png" />
 ##### -I like to create simple programs that I need but I am also working on bigger projects 🗃
