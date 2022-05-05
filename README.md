@@ -6,8 +6,6 @@
 ##### -I like to create simple programs that I need but I am also working on bigger projects 🗃
 ##### -Also, music is a great hobby and occupation for me. As someone who is very confident in my voice, I love singing and playing guitar  🎸 I am also sharing my covers in youtube ! 🎵
 
-
-
 <br />
 
 ## Links  :
@@ -21,8 +19,13 @@
 <h2 align="left">Languages :</h3>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-## GitHub Analytics :
+## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)  [![GitHub followers](https://img.shields.io/github/followers/DeveloperHHT.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/DeveloperHHT?tab=followers)
 <img height="180em" align="center" src="https://github-readme-stats.vercel.app/api?username=DeveloperHHT&show_icons=true&locale=en&theme=algolia&include_all_commits=true&count_private=true" alt="mukireus"/>
   <img height="180em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=DeveloperHHT&show_icons=true&locale=en&layout=compact&langs_count=8&theme=algolia" alt="mukireus"/>
   
+[![DeveloperHHT's github streak](https://github-readme-streak-stats.herokuapp.com/?user=DeveloperHHT&theme=blue-green)](https://github.com/DeveloperHHT/github-readme-streak-stats)
 
+[![DeveloperHHT's github trophy](https://github-profile-trophy.vercel.app/?username=DeveloperHHT&row=1)](https://github.com/DeveloperHHT/github-profile-trophy)
+
+## Wanna hear some random jokes ? 😅 : 
+![Jokes Card](https://readme-jokes.vercel.app/api)
