@@ -1,27 +1,89 @@
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="400" />
+
+<div align="center">
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+</div>  
+
+
+
 
 ## Hello there 👋 
+
+<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="300" />
+
 ##### -I'm a Computer Engineering Student 🎓 , Developer 💻 and also Gamer 🎮
+##### -I can call myself as a Backend Developer , Full Stack Developer and someone who interested in to Game Development
 ##### -I’m currently learning more about Python <img align="center" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/python/python.png" />
 ##### -I like to create simple programs that I need but I am also working on bigger projects 🗃
 ##### -Also, music is a great hobby and occupation for me. As someone who is very confident in my voice, I love singing and playing guitar  🎸 I am also sharing my covers in youtube ! 🎵
 
 <br />
 
-## Links  :
-[linkedin]: https://www.linkedin.com/in/hasanhuseyintayap
-[<img align="left" alt="linkedin | LinkedIn" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />][linkedin]
-<a href="https://www.youtube.com/channel/UC7cmvPRJTMu8VWNSOSHuiNg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/UC7cmvPRJTMu8VWNSOSHuiNg" height="30" width="40" /></a>
-<a href="https://instagram.com/hasanhuseyintayap" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hasanhuseyintayap" height="30" width="40" /></a>
-<a href="https://discord.gg/Ready_2_Play#1938" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Ready_2_Play#1938" height="30" width="40" /></a>
-<br />
 
-<h2 align="left">Languages :</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
- </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
- </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
- </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-</p>
+## Links  :
+
+
+<div align="center">
+<a href="https://linkedin.com/in/hasanhuseyintayap" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://instagram.com/hasanhuseyintayap" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.youtube.com/channel/UC7cmvPRJTMu8VWNSOSHuiNg" target="_blank">
+<img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
+</a>  
+<a href="https://steamcommunity.com/id/HasHus61" target="_blank">
+<img src=https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white alt=steam style="margin-bottom: 5px;" />
+</a>  
+<a href="Ready_2_Play#1938" target="_blank">
+<img src=https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white alt=discord style="margin-bottom: 5px;" />
+</a>  
+<a href="https://open.spotify.com/user/tayap61?si=e997818a99ed4a42" target="_blank">
+<img src=https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white alt=spotify style="margin-bottom: 5px;" />
+</a>  
+
+ 
+</div>  
+
+## Skills : 
+<table><tr><td valign="top" width="33%">
+
+
+### Frontend  
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
+</div>
+
+</td><td valign="top" width="33%">
+
+ 
+### Backend
+
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dot-net-original-wordmark.svg" alt=".NET" height="50" />  
+<img style="margin: 10px" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" height="50" />  
+
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+###  DevOps 
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
+</div>
+
+</td></tr></table>  
+
+<br/>  
+
 
 
 ## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)  [![GitHub followers](https://img.shields.io/github/followers/DeveloperHHT.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/DeveloperHHT?tab=followers)
