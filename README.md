@@ -80,10 +80,9 @@
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
 </div>
 
-</td></tr></table>  
+</td></tr></table> 
 
 <br/>  
-
 
 
 ## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)  [![GitHub followers](https://img.shields.io/github/followers/DeveloperHHT.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/DeveloperHHT?tab=followers)
