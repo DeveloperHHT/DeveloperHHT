@@ -85,7 +85,7 @@
 <br/>  
 
 
-## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)[![GitHub followers]
+## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)
 
 ![Github stats 1](https://github-readme-stats.vercel.app/api?username=DeveloperHHT&show_icons=true&theme=radical) 
   
