@@ -85,9 +85,9 @@
 <br/>  
 
 
-## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)  [![GitHub followers](https://img.shields.io/github/followers/DeveloperHHT.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/DeveloperHHT?tab=followers)
-<img height="180em" align="center" src="https://github-readme-stats.vercel.app/api?username=DeveloperHHT&show_icons=true&locale=en&theme=algolia&include_all_commits=true&count_private=true" alt="mukireus"/>
-  <img height="180em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=DeveloperHHT&show_icons=true&locale=en&layout=compact&langs_count=8&theme=algolia" alt="mukireus"/>
+## GitHub Analytics :                  ![Profile views](https://gpvc.arturio.dev/DeveloperHHT)[![GitHub followers]
+
+![Github stats 1](https://github-readme-stats.vercel.app/api?username=DeveloperHHT&show_icons=true&theme=radical) 
   
 [![DeveloperHHT's github streak](https://github-readme-streak-stats.herokuapp.com/?user=DeveloperHHT&theme=blue-green)](https://github.com/DeveloperHHT/github-readme-streak-stats)
 
