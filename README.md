@@ -4,11 +4,9 @@
 </div>  
 
 
-
-
 ## Hello there 👋 
 
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="300" />
+<img align="right" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="300" />
 
 ##### -I'm a Computer Engineering Student 🎓 , Developer 💻 and also Gamer 🎮
 ##### -I can call myself as a Backend Developer , Full Stack Developer and someone who interested in to Game Development
@@ -16,7 +14,7 @@
 ##### -I like to create simple programs that I need but I am also working on bigger projects 🗃
 ##### -Also, music is a great hobby and occupation for me. As someone who is very confident in my voice, I love singing and playing guitar  🎸 I am also sharing my covers in youtube ! 🎵
 
-<br />
+
 
 
 ## Links  :
