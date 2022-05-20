@@ -6,7 +6,7 @@
 
 ## Hello there 👋 
 
-<img align="right" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="300" />
+
 
 ##### -I'm a Computer Engineering Student 🎓 , Developer 💻 and also Gamer 🎮
 ##### -I can call myself as a Backend Developer , Full Stack Developer and someone who interested in to Game Development
@@ -40,6 +40,7 @@
 <img src=https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white alt=spotify style="margin-bottom: 5px;" />
 </a>  
 
+ <img align="center" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="1200" height="700" />
  
 </div>  
 
@@ -91,5 +92,5 @@
 
 [![DeveloperHHT's github trophy](https://github-profile-trophy.vercel.app/?username=DeveloperHHT&row=1)](https://github.com/DeveloperHHT/github-profile-trophy)
 
-## Wanna hear some random jokes ? 😅 : 
+## Wanna hear some random developer jokes ? 😅 : 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
