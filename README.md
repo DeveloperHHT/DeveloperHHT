@@ -40,7 +40,7 @@
 <img src=https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white alt=spotify style="margin-bottom: 5px;" />
 </a>  
 
- <img align="center" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="1200" height="700" />
+ <img src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true"  align="center" style="width: 100%" />
  
 </div>  
 
