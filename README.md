@@ -92,5 +92,5 @@
 
 [![DeveloperHHT's github trophy](https://github-profile-trophy.vercel.app/?username=DeveloperHHT&row=1)](https://github.com/DeveloperHHT/github-profile-trophy)
 
-## Wanna hear some random developer jokes ? 😅 : 
+## Wanna hear some random jokes ? 😅 : 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
