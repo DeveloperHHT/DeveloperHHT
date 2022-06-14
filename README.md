@@ -7,8 +7,6 @@
 ## Hi!
 
 
-
-##### -I'm a Computer Engineering Student , Developer and also Gamer 
 ##### -I can call myself as a Backend Developer , Full Stack Developer and someone who interested in to Game Development
 ##### -I’m currently learning more about Python <img align="center" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/python/python.png" />
 ##### -I like to create simple programs that I need but I am also working on bigger projects 
