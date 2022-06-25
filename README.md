@@ -8,7 +8,7 @@
 
 
 ##### -I can call myself as a Backend Developer , Full Stack Developer and someone who interested in to Game Development
-##### -I’m currently learning more about Python <img align="center" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/python/python.png" />
+##### -I’m currently learning more about Python <img align="center" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/python/python.png" /> also developing games in Unity
 ##### -I like to create simple programs that I need but I am also working on bigger projects 
 ##### -Also, music is a great hobby and occupation for me. I love singing and playing guitar  🎸 Yo can find my covers on Youtube !
 
