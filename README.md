@@ -7,8 +7,8 @@
 ## Hi!
 
 
-##### -I can call myself as a Backend Developer , Full Stack Developer and Game Developer
-##### -I’m currently learning more about Deep Learning and working on Image Processing also developing games in Unity
+##### -I can call myself as a Full Stack Developer, Game Developer and AI Developer
+##### -I’m currently learning more about Deep Learning and working on Image Processing. I am also developing games in Unity
 ##### -I like to create simple programs that I need but I am also working on bigger projects 
 ##### -Also, music is a great hobby and occupation for me. I love singing and playing guitar  🎸 Yo can find my covers on Youtube !
 
