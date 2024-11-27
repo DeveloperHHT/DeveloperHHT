@@ -1,8 +1,11 @@
 <br clear="both">
+
 <h1 align="left">Hi 👋</h1>
 
 ###
+
 <br clear="both">
+
 <h5 align="center">I am a Software Engineer who calls himself a Full Stack and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube!</h5>
 
 ###
@@ -147,6 +150,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DeveloperHHT&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=DeveloperHHT&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DeveloperHHT&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false" height="150" alt="languages graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=DeveloperHHT&theme=onedark&column=9&margin-w=10&no-bg=true&no-frame=false&row=1" height="150" alt="trophy graph"  />
 </div>
