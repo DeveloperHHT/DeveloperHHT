@@ -7,10 +7,8 @@
 ## Hi!
 
 
-##### -I can call myself as a Full Stack Developer, Backend Developer and someone who loves developing AI
-##### -I’m currently working on Deep Learning projects. 
-##### -I like to create simple programs that I need but I am also working on bigger projects 
-##### -Also, music is a great hobby and occupation for me. I love singing and playing guitar  🎸 Yo can find my covers on Youtube !
+##### -I am a Software Engineer. I can call myself as a Full Stack and Backend Developer. I mostly work on AI projects.
+##### -Also, music is a great hobby and occupation for me. I love singing and playing guitar  🎸 Yo can find my singles and covers on spotify, Apple Music and Youtube !
 
 
 
