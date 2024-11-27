@@ -1,11 +1,9 @@
 <br clear="both">
-
 <h1 align="left">Hi 👋</h1>
 
 ###
 
 <br clear="both">
-
 <h5 align="center">I am a Software Engineer who calls himself a Full Stack and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube!</h5>
 
 ###
@@ -44,15 +42,15 @@
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="13" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="13" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="13" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" height="40" alt="qt logo"  />
-  <img width="13" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
-  <img width="13" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
 </div>
 
@@ -139,9 +137,7 @@
 </div>
 
 ###
-
 <br clear="both">
-
 <p align="left"></p>
 
 ###
@@ -154,6 +150,17 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DeveloperHHT&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false" height="150" alt="languages graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=DeveloperHHT&theme=onedark&column=9&margin-w=10&no-bg=true&no-frame=false&row=1" height="150" alt="trophy graph"  />
 </div>
+<div align="center">
+  <h3>🔝 Top Contributed Repo</h3>
+  <img src="https://github-contributor-stats.vercel.app/api?username=DeveloperHHT&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="top contributed repo" />
+</div>
+<div align="center">
+  <h3>✍️ Random Developer Quote</h3>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="random dev quote" />
+</div>
+
+
+
 
 ###
 
