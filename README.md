@@ -2,9 +2,7 @@
 <h1 align="left">Hi 👋</h1>
 
 ###
-
 <br clear="both">
-
 <h5 align="center">I am a Software Engineer who calls himself a Full Stack and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube!</h5>
 
 ###
