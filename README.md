@@ -1,5 +1,4 @@
 <br clear="both">
-
 <h1 align="left">Hi 👋</h1>
 
 ###
@@ -150,7 +149,6 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DeveloperHHT&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=DeveloperHHT&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DeveloperHHT&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false" height="150" alt="languages graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=DeveloperHHT&theme=onedark&column=9&margin-w=10&no-bg=true&no-frame=false&row=1" height="150" alt="trophy graph"  />
 </div>
