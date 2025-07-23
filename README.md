@@ -4,7 +4,7 @@
 ###
 
 <br clear="both">
-<h5 align="center">I am a Software Engineer who calls himself a Full Stack and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube!</h5>
+<h5 align="center">I am a Software Engineer who calls himself a Full Stack and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube! I am also a Biker who loves riding</h5>
 
 ###
 
@@ -42,6 +42,8 @@
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"" height="40" alt="react logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
