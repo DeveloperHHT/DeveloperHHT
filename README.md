@@ -4,7 +4,7 @@
 ###
 
 <br clear="both">
-<h5 align="center">I am a Software Engineer who calls himself a Full Stack and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube! I am also a Biker who loves riding</h5>
+<h5 align="center">I am a Software Engineer who calls himself a Full Stack AI and Backend Developer. I mostly work on AI projects.<br><br>Also, music is a great hobby and occupation for me. I love singing and playing guitar. 🎸 You can find my singles and covers on Spotify, Apple Music and Youtube! I am also a Biker who loves riding</h5>
 
 ###
 
