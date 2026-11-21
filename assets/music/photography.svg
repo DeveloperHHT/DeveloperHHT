@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-labelledby="t d">
+  <title id="t">Behind the lens: @hhtthephotographer</title>
+  <desc id="d">Animated landscape in a camera viewfinder: a sun rising over layered hills, crossing the sky and setting while clouds drift and the shutter flashes, next to the Instagram handle hhtthephotographer.</desc>
+  <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb454"/><stop offset=".55" stop-color="#f0603a"/><stop offset="1" stop-color="#bc4fa0"/>
+    </linearGradient>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2347"/><stop offset=".55" stop-color="#8a4a6e"/><stop offset="1" stop-color="#ffb08a"/>
+    </linearGradient>
+    <linearGradient id="day" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a4a"/><stop offset=".55" stop-color="#35507e"/><stop offset="1" stop-color="#7a9cc0"/>
+    </linearGradient>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1020"/><stop offset=".5" stop-color="#5a2a55"/><stop offset="1" stop-color="#f0603a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd27a"/><stop offset=".4" stop-color="#ff9a4a" stop-opacity=".75"/><stop offset="1" stop-color="#ff9a4a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="scene"><rect x="560" y="1" width="439" height="198" rx="0"/></clipPath>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="198" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+    /* one 18s cycle: sunrise on the left, sunset on the right, loop hidden behind the hills */
+    .dawn { animation: dawn 18s linear infinite; }
+    @keyframes dawn { 0%,6% { opacity: 1 } 42%,94% { opacity: 0 } 100% { opacity: 1 } }
+    .dusk { animation: dusk 18s linear infinite; }
+    @keyframes dusk { 0%,58% { opacity: 0 } 94% { opacity: 1 } 100% { opacity: 0 } }
+
+    .sx { animation: sx 18s linear infinite; }
+    @keyframes sx { 0% { transform: translateX(0) } 100% { transform: translateX(240px) } }
+    .sy { animation: sy 18s infinite; }
+    @keyframes sy {
+      0%   { transform: translateY(0);     animation-timing-function: ease-out }
+      50%  { transform: translateY(-96px); animation-timing-function: ease-in }
+      100% { transform: translateY(0) }
+    }
+    .disc { animation: disc 18s linear infinite; }
+    @keyframes disc { 0% { fill: #ffa24a } 18% { fill: #ffd27a } 50% { fill: #fff1c2 } 82% { fill: #ffd27a } 100% { fill: #ff7a3a } }
+    .halo { transform-box: fill-box; transform-origin: center; animation: halo 18s ease-in-out infinite; }
+    @keyframes halo {
+      0%   { opacity: 0;  transform: scale(.9) }
+      10%  { opacity: .9; transform: scale(1) }
+      50%  { opacity: .55; transform: scale(1.12) }
+      90%  { opacity: .9; transform: scale(1) }
+      100% { opacity: 0;  transform: scale(.9) }
+    }
+
+    .cloud { animation: drift 44s linear infinite; }
+    @keyframes drift { 0% { transform: translateX(-90px) } 100% { transform: translateX(520px) } }
+
+    .flash { opacity: 0; animation: flash 18s linear infinite; }
+    @keyframes flash {
+      0%,30%   { opacity: 0 }
+      30.4%    { opacity: .7 }
+      32.5%    { opacity: 0 }
+      71%      { opacity: 0 }
+      71.4%    { opacity: .7 }
+      73.5%    { opacity: 0 }
+      100%     { opacity: 0 }
+    }
+    .focus { transform-box: fill-box; transform-origin: center; animation: focus 18s ease-in-out infinite; }
+    @keyframes focus {
+      0%     { transform: scale(1.35); opacity: .35 }
+      27%    { transform: scale(1.35); opacity: .35 }
+      30%    { transform: scale(1);    opacity: 1 }
+      35%    { transform: scale(1);    opacity: .85 }
+      40%    { transform: scale(1.35); opacity: .35 }
+      68%    { transform: scale(1.35); opacity: .35 }
+      71%    { transform: scale(1);    opacity: 1 }
+      76%    { transform: scale(1);    opacity: .85 }
+      81%,100% { transform: scale(1.35); opacity: .35 }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .dawn, .dusk, .sx, .sy, .disc, .halo, .cloud, .flash, .focus { animation: none }
+      .dawn { opacity: 1 }
+      .dusk { opacity: 0 }
+      .sx { transform: translateX(120px) }
+      .sy { transform: translateY(-60px) }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="200" fill="#0d1117"/>
+    <!-- scene -->
+    <g clip-path="url(#scene)">
+      <rect x="560" y="0" width="440" height="200" fill="url(#day)"/>
+      <rect class="dawn" x="560" y="0" width="440" height="200" fill="url(#dawn)"/>
+      <rect class="dusk" x="560" y="0" width="440" height="200" fill="url(#dusk)"/>
+
+      <!-- sun: x drifts linearly, y follows an arc, both start and end behind the hills -->
+      <g transform="translate(660 150)">
+        <g class="sx"><g class="sy">
+          <circle class="halo" cx="0" cy="0" r="66" fill="url(#glow)"/>
+          <circle class="disc" cx="0" cy="0" r="13" fill="#ffd27a"/>
+        </g></g>
+      </g>
+
+      <!-- clouds -->
+      <g transform="translate(560 40)"><g class="cloud" style="animation-delay:-12s">
+        <ellipse cx="0" cy="0" rx="30" ry="5" fill="#ffe3d0" fill-opacity=".2"/>
+        <ellipse cx="-12" cy="-4" rx="14" ry="5" fill="#ffe3d0" fill-opacity=".2"/>
+        <ellipse cx="10" cy="-6" rx="16" ry="6" fill="#ffe3d0" fill-opacity=".2"/>
+      </g></g>
+      <g transform="translate(560 68)"><g class="cloud" style="animation-duration:60s;animation-delay:-38s">
+        <ellipse cx="0" cy="0" rx="40" ry="6" fill="#ffe3d0" fill-opacity=".14"/>
+        <ellipse cx="-16" cy="-5" rx="18" ry="6" fill="#ffe3d0" fill-opacity=".14"/>
+        <ellipse cx="14" cy="-7" rx="20" ry="7" fill="#ffe3d0" fill-opacity=".14"/>
+      </g></g>
+      <g transform="translate(560 22)"><g class="cloud" style="animation-duration:52s;animation-delay:-5s">
+        <ellipse cx="0" cy="0" rx="24" ry="4" fill="#ffe3d0" fill-opacity=".16"/>
+        <ellipse cx="8" cy="-4" rx="12" ry="4" fill="#ffe3d0" fill-opacity=".16"/>
+      </g></g>
+
+      <!-- hills, far to near -->
+      <polygon points="560,132 610,114 650,126 705,100 750,120 800,104 850,96 900,112 950,98 1000,110 1000,200 560,200" fill="#3a2a48"/>
+      <polygon points="560,152 620,130 680,148 740,128 800,150 860,132 930,150 1000,134 1000,200 560,200" fill="#241b33"/>
+      <polygon points="560,176 640,160 720,176 800,164 880,178 950,162 1000,170 1000,200 560,200" fill="#1a1220"/>
+
+      <!-- shutter flash -->
+      <rect class="flash" x="560" y="0" width="440" height="200" fill="#fff"/>
+    </g>
+    <!-- fade the scene into the card -->
+    <rect x="560" y="0" width="120" height="200" fill="url(#fadeL)"/>
+
+    <!-- viewfinder -->
+    <g fill="none" stroke="#e6edf3" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M606 44 V28 H622"/>
+      <path d="M964 44 V28 H948"/>
+      <path d="M606 156 V172 H622"/>
+      <path d="M964 156 V172 H948"/>
+    </g>
+    <g class="focus" fill="none" stroke="#ffd27a" stroke-width="1.6" stroke-linecap="round">
+      <circle cx="786" cy="100" r="18"/>
+      <path d="M786 74 V80 M786 120 V126 M760 100 H766 M806 100 H812"/>
+      <circle cx="786" cy="100" r="1.6" fill="#ffd27a" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <text class="mono" x="44" y="46" font-size="14" fill="#7d8590" letter-spacing="3">PHOTOGRAPHY</text>
+  <text class="sans" x="44" y="96" font-size="44" font-weight="800" fill="url(#warm)">Behind the lens</text>
+  <text class="sans" x="46" y="128" font-size="18" fill="#9da7b3">Nature and landscapes, with a weakness</text>
+  <text class="sans" x="46" y="152" font-size="18" fill="#9da7b3">for sunrise and sunset.</text>
+  <text class="mono" x="46" y="180" font-size="14" fill="#7d8590">@hhtthephotographer</text>
+
+  <rect x="1" y="1" width="998" height="198" rx="20" fill="none" stroke="#30363d" stroke-width="2"/>
+</svg>

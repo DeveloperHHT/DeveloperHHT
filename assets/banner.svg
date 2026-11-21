@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Hasan Hüseyin Tayap</title>
+  <desc id="d">AI engineer. Agentic AI, computer vision and backend development.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" opacity="0.55"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="340" rx="20"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .edge { stroke: #30363d; stroke-width: 1.5; fill: none; }
+    .flow { stroke: url(#accent); stroke-width: 1.5; fill: none; stroke-dasharray: 4 10; opacity: .8;
+            animation: flow 2.4s linear infinite; }
+    .node { fill: #0d1117; stroke: url(#accent); stroke-width: 2; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3s ease-in-out infinite; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    .sub { animation-duration: 9s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
+    .sub1 { animation-name: sub1; } .sub2 { animation-name: sub2; } .sub3 { animation-name: sub3; }
+    /* 9s loop, ~3s per phrase; each one fades out before the next fades in, so they never overlap */
+    @keyframes sub1 { 0%,28% { opacity: 1; transform: translateY(0); }
+                      31%,96% { opacity: 0; transform: translateY(-8px); }
+                      96.01% { opacity: 0; transform: translateY(8px); }
+                      100% { opacity: 1; transform: translateY(0); } }
+    @keyframes sub2 { 0%,31% { opacity: 0; transform: translateY(8px); }
+                      35%,61% { opacity: 1; transform: translateY(0); }
+                      64%,100% { opacity: 0; transform: translateY(-8px); } }
+    @keyframes sub3 { 0%,64% { opacity: 0; transform: translateY(8px); }
+                      68%,94% { opacity: 1; transform: translateY(0); }
+                      97%,100% { opacity: 0; transform: translateY(-8px); } }
+    @keyframes flow  { to { stroke-dashoffset: -28; } }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.35); opacity: .35; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <ellipse cx="930" cy="170" rx="360" ry="260" fill="url(#glow)"/>
+
+    <!-- agent graph -->
+    <g>
+      <path id="e1" class="edge" d="M930 170 L790 90"/>
+      <path id="e2" class="edge" d="M930 170 L815 262"/>
+      <path id="e3" class="edge" d="M930 170 L1075 78"/>
+      <path id="e4" class="edge" d="M930 170 L1100 240"/>
+      <path id="e5" class="edge" d="M930 170 L955 40"/>
+      <path class="edge" d="M790 90 L955 40"/>
+      <path class="edge" d="M955 40 L1075 78"/>
+      <path class="edge" d="M815 262 L960 312"/>
+      <path class="edge" d="M960 312 L1100 240"/>
+      <path class="edge" d="M1075 78 L1150 160 L1100 240"/>
+
+      <use href="#e1" class="flow"/><use href="#e2" class="flow"/><use href="#e3" class="flow"/>
+      <use href="#e4" class="flow"/><use href="#e5" class="flow"/>
+
+      <!-- messages travelling between agents -->
+      <circle r="3.5" fill="#58a6ff"><animateMotion dur="3.2s" repeatCount="indefinite" path="M930 170 L790 90"/></circle>
+      <circle r="3.5" fill="#bc8cff"><animateMotion dur="3.8s" begin="0.6s" repeatCount="indefinite" path="M815 262 L930 170"/></circle>
+      <circle r="3.5" fill="#58a6ff"><animateMotion dur="3.4s" begin="1.1s" repeatCount="indefinite" path="M930 170 L1075 78"/></circle>
+      <circle r="3.5" fill="#bc8cff"><animateMotion dur="4s" begin="0.2s" repeatCount="indefinite" path="M1100 240 L930 170"/></circle>
+      <circle r="3.5" fill="#58a6ff"><animateMotion dur="2.8s" begin="1.6s" repeatCount="indefinite" path="M930 170 L955 40"/></circle>
+
+      <!-- worker agents -->
+      <circle class="node" cx="790" cy="90" r="9"/>
+      <circle class="node" cx="815" cy="262" r="9"/>
+      <circle class="node" cx="1075" cy="78" r="9"/>
+      <circle class="node" cx="1100" cy="240" r="9"/>
+      <circle class="node" cx="955" cy="40" r="7"/>
+      <circle class="node" cx="960" cy="312" r="7"/>
+      <circle class="node" cx="1150" cy="160" r="6"/>
+
+      <!-- orchestrator -->
+      <circle class="pulse" cx="930" cy="170" r="22" fill="url(#accent)" opacity=".35"/>
+      <circle class="node" cx="930" cy="170" r="16" stroke-width="2.5"/>
+      <circle cx="930" cy="170" r="6" fill="url(#accent)"/>
+    </g>
+
+    <!-- text -->
+    <text class="mono" x="70" y="98" font-size="20" fill="#7d8590">$ whoami</text>
+    <text class="sans" x="70" y="178" font-size="58" font-weight="700" fill="#f0f6fc" letter-spacing="-1">Hasan Hüseyin Tayap</text>
+    <!-- rotating role: first phrase is the static fallback, the others start hidden -->
+    <text class="sans sub sub1" x="72" y="226" font-size="26" font-weight="600" fill="url(#accent)">AI Engineer</text>
+    <text class="sans sub sub2" x="72" y="226" font-size="26" font-weight="600" fill="url(#accent)" opacity="0">Agentic AI Developer</text>
+    <text class="sans sub sub3" x="72" y="226" font-size="26" font-weight="600" fill="url(#accent)" opacity="0">Full Stack &amp; Computer Vision</text>
+    <text class="sans" x="72" y="262" font-size="20" fill="#9da7b3">Agents · Computer Vision · Industrial AI · Backend</text>
+    <text class="mono" x="72" y="302" font-size="16" fill="#7d8590">&gt; multi-agent systems, python, shipping things<tspan class="blink" fill="#58a6ff">_</tspan></text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="338" rx="19" fill="none" stroke="#30363d"/>
+</svg>

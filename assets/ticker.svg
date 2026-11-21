@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-labelledby="t">
+  <title id="t">What I work with: LLM agents, tool calling, RAG, evals, computer vision, edge AI and production</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".08" stop-color="#fff"/>
+      <stop offset=".92" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fade"><rect width="1200" height="52" fill="url(#edge)"/></mask>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .slide { animation: slide 49.1s linear infinite; }
+    @keyframes slide { to { transform: translateX(-1865.6px); } }
+  </style>
+  <rect x="1" y="1" width="1198" height="50" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <g mask="url(#fade)">
+    <g class="slide">
+      <text class="mono" x="0.0" y="32" font-size="16" fill="#c9d1d9" textLength="96.0" lengthAdjust="spacing">LLM agents</text>
+      <circle cx="124.0" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="152.0" y="32" font-size="16" fill="#c9d1d9" textLength="115.2" lengthAdjust="spacing">tool calling</text>
+      <circle cx="295.2" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="323.2" y="32" font-size="16" fill="#c9d1d9" textLength="28.8" lengthAdjust="spacing">RAG</text>
+      <circle cx="380.0" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="408.0" y="32" font-size="16" fill="#c9d1d9" textLength="192.0" lengthAdjust="spacing">evals and guardrails</text>
+      <circle cx="628.0" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="656.0" y="32" font-size="16" fill="#c9d1d9" textLength="182.4" lengthAdjust="spacing">multi-agent systems</text>
+      <circle cx="866.4" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="894.4" y="32" font-size="16" fill="#c9d1d9" textLength="115.2" lengthAdjust="spacing">YOLO and OCR</text>
+      <circle cx="1037.6" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="1065.6" y="32" font-size="16" fill="#c9d1d9" textLength="201.6" lengthAdjust="spacing">NVIDIA Jetson Orin NX</text>
+      <circle cx="1295.2" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="1323.2" y="32" font-size="16" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacing">FastAPI</text>
+      <circle cx="1418.4" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="1446.4" y="32" font-size="16" fill="#c9d1d9" textLength="153.6" lengthAdjust="spacing">Docker and CI/CD</text>
+      <circle cx="1628.0" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="1656.0" y="32" font-size="16" fill="#c9d1d9" textLength="153.6" lengthAdjust="spacing">Google Cloud Run</text>
+      <circle cx="1837.6" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="1865.6" y="32" font-size="16" fill="#c9d1d9" textLength="96.0" lengthAdjust="spacing">LLM agents</text>
+      <circle cx="1989.6" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="2017.6" y="32" font-size="16" fill="#c9d1d9" textLength="115.2" lengthAdjust="spacing">tool calling</text>
+      <circle cx="2160.8" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="2188.8" y="32" font-size="16" fill="#c9d1d9" textLength="28.8" lengthAdjust="spacing">RAG</text>
+      <circle cx="2245.6" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="2273.6" y="32" font-size="16" fill="#c9d1d9" textLength="192.0" lengthAdjust="spacing">evals and guardrails</text>
+      <circle cx="2493.6" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="2521.6" y="32" font-size="16" fill="#c9d1d9" textLength="182.4" lengthAdjust="spacing">multi-agent systems</text>
+      <circle cx="2732.0" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="2760.0" y="32" font-size="16" fill="#c9d1d9" textLength="115.2" lengthAdjust="spacing">YOLO and OCR</text>
+      <circle cx="2903.2" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="2931.2" y="32" font-size="16" fill="#c9d1d9" textLength="201.6" lengthAdjust="spacing">NVIDIA Jetson Orin NX</text>
+      <circle cx="3160.8" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="3188.8" y="32" font-size="16" fill="#c9d1d9" textLength="67.2" lengthAdjust="spacing">FastAPI</text>
+      <circle cx="3284.0" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="3312.0" y="32" font-size="16" fill="#c9d1d9" textLength="153.6" lengthAdjust="spacing">Docker and CI/CD</text>
+      <circle cx="3493.6" cy="26" r="3" fill="url(#accent)"/>
+      <text class="mono" x="3521.6" y="32" font-size="16" fill="#c9d1d9" textLength="153.6" lengthAdjust="spacing">Google Cloud Run</text>
+      <circle cx="3703.2" cy="26" r="3" fill="url(#accent)"/>
+    </g>
+  </g>
+</svg>

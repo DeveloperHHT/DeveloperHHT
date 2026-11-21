@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-labelledby="t d">
+  <title id="t">Multi-agent run in a terminal</title>
+  <desc id="d">Animated terminal: a planner, researcher, coder and reviewer agent finish a task together.</desc>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <clipPath id="typed"><rect class="wipe" x="150" y="86" width="420" height="30"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 19px; }
+    .dim  { fill: #7d8590; }
+    .txt  { fill: #e6edf3; }
+    .row  { opacity: 0; animation: show 14s linear infinite; }
+    .r1 { animation-name: show1; } .r2 { animation-name: show2; } .r3 { animation-name: show3; }
+    .r4 { animation-name: show4; } .r5 { animation-name: show5; }
+    .wipe { transform-box: fill-box; transform-origin: left center; animation: type 14s linear infinite; }
+    .bar { transform-box: fill-box; transform-origin: left center; animation: grow 14s linear infinite; }
+
+    /* 14s loop: rows fade in one after another, hold, then reset */
+    @keyframes type {
+      0%, 3.5% { transform: scaleX(0); animation-timing-function: steps(31); }
+      15%, 92% { transform: scaleX(1); }
+      97%, 100% { transform: scaleX(0); }
+    }
+    @keyframes show1 { 0%,22%{opacity:0} 24%,92%{opacity:1} 97%,100%{opacity:0} }
+    @keyframes show2 { 0%,31%{opacity:0} 33%,92%{opacity:1} 97%,100%{opacity:0} }
+    @keyframes show3 { 0%,41%{opacity:0} 43%,92%{opacity:1} 97%,100%{opacity:0} }
+    @keyframes show4 { 0%,51%{opacity:0} 53%,92%{opacity:1} 97%,100%{opacity:0} }
+    @keyframes show5 { 0%,61%{opacity:0} 63%,92%{opacity:1} 97%,100%{opacity:0} }
+    @keyframes grow  { 0%,22%{transform:scaleX(0)} 62%{transform:scaleX(1)} 92%{transform:scaleX(1)} 97%,100%{transform:scaleX(0)} }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="998" height="328" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 15 A14 14 0 0 1 15 1 H985 A14 14 0 0 1 999 15 V46 H1 Z" fill="#161b22"/>
+  <line x1="1" y1="46" x2="999" y2="46" stroke="#30363d"/>
+  <circle cx="30" cy="24" r="7" fill="#ff5f56"/>
+  <circle cx="54" cy="24" r="7" fill="#ffbd2e"/>
+  <circle cx="78" cy="24" r="7" fill="#27c93f"/>
+  <text class="mono dim" x="500" y="30" font-size="15" text-anchor="middle" style="font-size:15px">agents — demo run</text>
+
+  <!-- command -->
+  <text class="mono" x="28" y="108"><tspan fill="#3fb950">~/agents</tspan><tspan class="dim"> $</tspan></text>
+  <g clip-path="url(#typed)">
+    <text class="mono txt" x="150" y="108">python run.py "ship the feature"</text>
+  </g>
+
+  <!-- agent log -->
+  <g class="row r1"><text class="mono" x="28" y="148"><tspan fill="#58a6ff">[planner]     </tspan><tspan class="txt">split the task into 4 steps</tspan></text></g>
+  <g class="row r2"><text class="mono" x="28" y="180"><tspan fill="#bc8cff">[researcher]  </tspan><tspan class="txt">read the docs, found 3 relevant sources</tspan></text></g>
+  <g class="row r3"><text class="mono" x="28" y="212"><tspan fill="#d29922">[coder]       </tspan><tspan class="txt">wrote the patch, 2 files changed</tspan></text></g>
+  <g class="row r4"><text class="mono" x="28" y="244"><tspan fill="#f778ba">[reviewer]    </tspan><tspan class="txt">tests green </tspan><tspan fill="#3fb950">✓</tspan></text></g>
+  <g class="row r5"><text class="mono" x="28" y="276"><tspan fill="#3fb950">[orchestrator]</tspan><tspan class="txt"> all steps done, handing back the result</tspan></text></g>
+
+  <!-- progress -->
+  <rect x="28" y="298" width="944" height="4" rx="2" fill="#21262d"/>
+  <rect class="bar" x="28" y="298" width="944" height="4" rx="2" fill="url(#accent)"/>
+
+</svg>
